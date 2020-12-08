@@ -1,0 +1,3 @@
+JULIA on REPL
+
+julia> using IJulia; jupyterlab()
