@@ -21,7 +21,7 @@ Edvan S. Sousa / Jonathan Matheus.
 Implementações
 ==============
 
-1. fatorial
+
 
 ~~~fatorial.jl
 # Mpi Fatorial
@@ -42,7 +42,8 @@ end
 
 main()
 ~~~
-2. fatorial MPI parametrizado
+
+
 
 ~~~MPI_fatorial_parametrizado.jl
 
@@ -100,7 +101,7 @@ MPI.Finalize()
 main()
 ~~~
 
-3. Fatorial MPI simples
+
 
 ~~~fat-send_recv.jl
 
@@ -170,7 +171,7 @@ MPI.Finalize()
 main()
 ~~~
 
-4. Fatorial MPI send_recv
+
 
 ~~~fat-simples.jl
 
@@ -205,7 +206,7 @@ MPI.Finalize()
 #@time main()
 ~~~
 
-5. Hello MPI com comunicação
+
 
 ~~~hello-comm.jl
 
@@ -239,7 +240,8 @@ sleep(rank*4)
 MPI.Barrier(comm)
 MPI.Finalize()
 ~~~
-6. Hello MPI simples
+
+
 ~~~hello-MPI-simples.jl
 # Hello MPI
 # MPI-Hello
@@ -259,8 +261,6 @@ end
 
 main()
 ~~~
-
-8. Simpson MPI reduction
 
 ~~~simpson-reduction.jl
 
@@ -327,7 +327,6 @@ main()
 
 ~~~
 
-9. Trapezio MPI versão 01
 
 ~~~trapezio-vrs01.jl
 
@@ -390,8 +389,6 @@ end
 main()
 
 ~~~
-
-10. Trapezio MPI versão 02
 
 ~~~trapezio-vrs02.jl
 
@@ -479,8 +476,6 @@ main()
 
 ~~~
 
-11. Trapezio MPI versão 03
-
 ~~~trapezio-vrs03.jl
 
 import MPI
@@ -542,8 +537,6 @@ end
 
 main()
 ~~~
-
-7. Simpson MPI pi
 
 ~~~simpson-MPI.jl
 
