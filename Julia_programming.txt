@@ -1,5 +1,0 @@
-
-JULIA programming 
-
-https://computationalthinking.mit.edu/Fall20/lecture1/
-

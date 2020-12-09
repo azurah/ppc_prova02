@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+"""
+Alunos: Edvan S. Sousa, Jonathan Matheus
+"""
+### Sobre a avaliação
+#### Sobre as questões que foram codificadas:
 
-You can use the [editor on GitHub](https://github.com/azurah/ppc_prova02/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+(1)fatorial 
+(2)fatorial MPI parametrizado
+(3)Fatorial MPI simples
+(4)Fatorial MPI send_recv
+(5)hello MPI com comunicação
+(6)Hello MPI simples
+(7)Simpson MPI pi
+(8)Simpson MPI reduction
+(9)Trapezio MPI versão 01
+(10)Trapezio MPI versão 02
+(11)Trapezio MPI versão 03
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/azurah/ppc_prova02/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##### OBS: não realizamos parte significativa do trabalho por conta do desfalque no grupo 2/5.
