@@ -43,7 +43,9 @@ end
 main()
 ~~~
 2. fatorial MPI parametrizado
+
 ~~~MPI_fatorial_parametrizado.jl
+
 #=
 Versão fatorial com comunicação parametrizado
 Autor: Edvan S. Sousa
@@ -51,6 +53,7 @@ Ano: dezembro 2020
 Problema original: fatorial com comunicação parametrizado
 Versão Julia:MPI-fatorial-param
 =#
+
 import MPI
 
 MPI.Init()
@@ -96,8 +99,11 @@ MPI.Finalize()
 
 main()
 ~~~
+
 3. Fatorial MPI simples
+
 ~~~fat-send_recv.jl
+
 #=
 Versão fatorial com comunicação
 Autor: Edvan S. Sousa
@@ -163,8 +169,11 @@ MPI.Finalize()
 
 main()
 ~~~
+
 4. Fatorial MPI send_recv
+
 ~~~fat-simples.jl
+
 #fatorial com MPI simples
 import MPI
 #import BenchmarkTools
@@ -195,8 +204,11 @@ MPI.Finalize()
 
 #@time main()
 ~~~
+
 5. Hello MPI com comunicação
+
 ~~~hello-comm.jl
+
 #=
 Versão Hello com comunicação
 Autor: Jonathan
@@ -247,8 +259,11 @@ end
 
 main()
 ~~~
+
 8. Simpson MPI reduction
+
 ~~~simpson-reduction.jl
+
 import MPI
 
 function f(x)
@@ -311,8 +326,11 @@ end
 main()
 
 ~~~
+
 9. Trapezio MPI versão 01
+
 ~~~trapezio-vrs01.jl
+
 import MPI
 
 function f(x)
@@ -372,8 +390,11 @@ end
 main()
 
 ~~~
+
 10. Trapezio MPI versão 02
+
 ~~~trapezio-vrs02.jl
+
 #=
 Versão Trapézio com comunicação
 Autor: Edvan S. Sousa
@@ -457,8 +478,11 @@ MPI.Finalize()
 main()
 
 ~~~
+
 11. Trapezio MPI versão 03
+
 ~~~trapezio-vrs03.jl
+
 import MPI
 
 function f(x::Float64)
@@ -518,8 +542,11 @@ end
 
 main()
 ~~~
+
 7. Simpson MPI pi
+
 ~~~simpson-MPI.jl
+
 #=
 Versão Trapézio com comunicação
 Autor: Edvan S. Sousa
